@@ -1,0 +1,249 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width:640px) {
+   
+    .head {
+        background-image: url(https://media3.giphy.com/media/doXBzUFJRxpaUbuaqz/giphy.gif);
+        height: 210px;
+        width:100%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+    }
+    .perfil{
+        width:auto;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        padding-top: 1rem;
+        height: 150px;
+        border-radius: 100%;
+    }
+    .info{
+        padding-top: 1rem;
+        color: white;
+        text-align: center;
+      
+    }
+    .info h3{
+        font-size: 2vh;
+    }
+    .info p{
+        font-size: 1vh;
+    }
+    .about {
+        padding: 2rem;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+    .about h1{
+        font-size: 3vh;
+        padding-bottom: 2rem;
+    }
+    .about p{
+        font-size: xx-small;
+    }
+    .tools{
+        align-items: center;
+        text-align: center;
+    }
+    .lenguajes{
+        width: 100%;
+        
+    } 
+    .lenguajes h2{
+        font-size: 4vh; 
+        color: white;
+    }
+    .lenguajes p{
+        font-size: xx-small; 
+        color: white; 
+        margin-top: 5rem;
+    }
+    .herramientas{
+        width: 100%;
+    }
+    .herramientas h2{
+        margin-top: 4rem;
+        font-size: 4vh; 
+        color: white;
+    }
+    .herramientas p{
+        font-size: xx-small; 
+        color: white;
+        margin-top: 5rem;
+    }  
+    .skill{
+        margin-top: 4rem;
+        width: 100%;
+    }
+    .ti{
+        text-align: center; 
+        color: white; 
+        font-size: 4vh;       
+    }
+    .sk{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-top: 5rem;
+        height: 100px;
+        text-align: center;
+    }
+    .experience{
+        margin-top: 45rem;
+        width: 100%;
+        display: row;
+    }
+    .title h1{
+        text-align: center; 
+        color: white; 
+        font-size: 4vh; 
+        margin-top: 12rem; 
+        margin-bottom: 5rem;
+    }
+    .cuadro{
+        display: flex;
+        justify-content: center;
+    }
+    .contents{
+        color: white;
+       
+    }
+    .cuadro img{
+        border-radius: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+    .certificate  h3{
+        text-align: center; 
+        color: white; 
+        margin-top: 10rem; 
+        font-size: 4vh;
+    }
+    .escom{
+        margin-top: 6rem;
+        text-align: center;
+    }
+    .escom img{
+        width:90%;
+        border-radius: 10%;
+    }
+    .social{
+        display: flex;
+        padding: 1rem;
+        margin-top: 5rem;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+    }
+    .buttons{
+        margin-left: 2rem;
+        display: flex;
+        
+    }
+    .facebook-btn{
+        background-color:#6096B4;
+        border: none;
+        
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .facebook-btn picture{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .facebook-btn picture img{
+        width: 75%;
+    }
+
+    .twitter-btn{
+        background-color:#6096B4;
+        border: none;
+        
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .twitter-btn picture{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .twitter-btn picture img{
+        width: 75%;
+    }
+    .insta-btn{
+        background-color:#6096B4;
+        border: none;
+        
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .insta-btn picture{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .insta-btn picture img{
+        width: 75%;
+    }
+    .github-btn{
+        background-color:#6096B4;
+        border: none;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        cursor: pointer;
+    }
+    .github-btn picture{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .github-btn picture img{
+        width: 75%;
+    }
+    .gmail-btn{
+        background-color:#6096B4;
+        border: none;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        cursor: pointer;
+    }
+
+    .gmail-btn picture{
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gmail-btn picture img{
+        width: 75%;
+    }
+}
